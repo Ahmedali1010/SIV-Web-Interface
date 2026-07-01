@@ -5,7 +5,7 @@
 A secure, web-based prototype demonstrating the Speaker Identification and Verification (SIV) Convolutional Neural Network (CNN) in real-time.
 
 ## 🌐 Live Demo
-**Access the live application here:** [INSERT_YOUR_STREAMLIT_URL_HERE]
+**Access the live application here:** https://kurdish-siv-prototype.streamlit.app/
 
 ## Overview
 This repository hosts the front-end interface and inference engine for our text-independent SIV model. Built with **Streamlit**, the application processes raw `.ogg` or `.wav` acoustic samples, extracts 2D Mel-spectrogram spatial features via `librosa`, and performs real-time identity verification utilizing a pre-trained `TensorFlow` CNN.
